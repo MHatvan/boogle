@@ -2,13 +2,11 @@ body {
     
     font-family: Arial, sans-serif;
     font-size: 14px;
-   
 }
 
 #wrapper {
     
     width: 100%;
-    
 }
 
 #header {
@@ -17,14 +15,13 @@ body {
     text-align: right;
     padding-top: 10px;
     padding-right: 30px;
-    
 }
 
 .header-element {
     
     display: inline-block;
     margin: 5px;
-    
+   
 }
 
 #sign-in {
@@ -32,27 +29,24 @@ body {
     color: white;
     background-color: #3689ea;
     padding: 5px 10px 5px 10px;
-    
 }
 
 #sign-in-color {
     
     color: white;
     text-decoration: none;
-    
 }
 
 a:link {
+    
     color: #696969;
     text-decoration: none;
-    
 }
 
 a:hover {
     
     color: black;
     text-decoration: underline;
-    
 }
 
 #content {
@@ -63,15 +57,19 @@ a:hover {
 
 #google_font {
     
+    /*
     margin-top: 7%;
-    
+    */
+    margin-top: 7%;
+    position: relative;
 }
 
 #oesterreich {
     
+    /*
     position: absolute;
-    top: 29%;
-    left: 56%;
+    */
+    position: relative;
     color: #3689ea;
     font-size: 16px;
     
@@ -83,23 +81,19 @@ a:hover {
     margin-bottom: 30px;
 }
 
-
 .below-searchbar {
     
     background-color: #efefef;
     color: #656565;
     padding: 7px 15px 7px 15px;
     margin-left: 5px;
-    
 }
-
 
 #footer-left{
     
     position: absolute;
     bottom: 0;
     font-size: 12px;
-
 }
 
 #footer-right {
@@ -116,39 +110,26 @@ a:hover {
     display: inline-block;
     margin-left: 30px;
     margin-bottom: 15px;
-   
     color: #696969;
-    
 }
-
 
 .footer-element-right {
     
     display: inline-block;
     margin-right: 30px;
     margin-bottom: 15px;
-    
     color: #696969;
-    
 }
-
 
 #microphone {
     
     position: absolute;
     top: 39.5%;
     left: 63.5%;
-    
 }
 
 #text{
     
     width: 32%;
     height: 35px;
-    
-}
-
-#grid {
-    
-    
 }
