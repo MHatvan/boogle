@@ -1,16 +1,17 @@
+.green {
+    color: green;
+}
+
 body {
-    
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
 
 #wrapper {
-    
     width: 100%;
 }
 
 #header {
-    
     position: relative;
     text-align: right;
     padding-top: 10px;
@@ -18,45 +19,36 @@ body {
 }
 
 .header-element {
-    
     display: inline-block;
     margin: 5px;
-   
 }
 
 #sign-in {
-    
     color: white;
     background-color: #3689ea;
     padding: 5px 10px 5px 10px;
 }
 
 #sign-in-color {
-    
     color: white;
     text-decoration: none;
 }
 
 a:link {
-    
     color: #696969;
     text-decoration: none;
 }
 
 a:hover {
-    
     color: black;
     text-decoration: underline;
 }
 
 #content {
-    
     text-align: center;
-    
 }
 
 #google_font {
-    
     /*
     margin-top: 7%;
     */
@@ -65,48 +57,40 @@ a:hover {
 }
 
 #oesterreich {
-    
     /*
     position: absolute;
     */
     position: relative;
     color: #3689ea;
     font-size: 16px;
-    
 }
 
 #searchbar {
-    
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .below-searchbar {
-    
     background-color: #efefef;
     color: #656565;
     padding: 7px 15px 7px 15px;
     margin-left: 5px;
 }
 
-#footer-left{
-    
+#footer-left {
     position: absolute;
     bottom: 0;
     font-size: 12px;
 }
 
 #footer-right {
-    
     position: absolute;
     bottom: 0;
     right: 0;
     font-size: 12px;
-
 }
 
 .footer-element-left {
-    
     display: inline-block;
     margin-left: 30px;
     margin-bottom: 15px;
@@ -114,7 +98,6 @@ a:hover {
 }
 
 .footer-element-right {
-    
     display: inline-block;
     margin-right: 30px;
     margin-bottom: 15px;
@@ -122,14 +105,12 @@ a:hover {
 }
 
 #microphone {
-    
     position: absolute;
     top: 39.5%;
     left: 63.5%;
 }
 
-#text{
-    
+#text {
     width: 32%;
     height: 35px;
 }
