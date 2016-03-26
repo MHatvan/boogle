@@ -1,78 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title> Boogle </title>
 
     <meta charset="UTF-8">
-    <!--<meta http-equiv="refresh" content="3"> -->
+    <!--   <meta http-equiv="refresh" content="2"> -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
 
 <body>
 
-    <span class="green"> G</span>
-    <span> o</span>
-    <span class="green"> o</span>
-    <span> g</span>
-    <span> l</span>
-    <span> e</span>
+    <div id="header" class="responsive">
+        <ul class="nav-element">
+            <li> <a href="#"> Gmail </a> </li>
+            <li> <a href="#"> Bilder </a> </li>
+            <li id="nav-grid-pic"> <img src="img/grid.png" title="Google-Apps" alt="Grid" height="15" width="15"> </li>
+            <li>
+                <button id="nav-sign-in"> Anmelden </button>
+            </li>
+        </ul>
 
-    <div id="wrapper">
+    </div>
 
-        <div id="header">
+    <div id="content">
 
-            <span class="header-element"> <a href="#"> Gmail </a> </span>
-            <span class="header-element"> <a href="#"> Bilder </a> </span>
-            <span class="header-element" id="grid"> <img src="img/grid.png" title="Google-Apps" alt= "Grid" height="15" width="15">  </span>
-            <span class="header-element"> <button id="sign-in"> <a href="#" id="sign-in-color"> Anmelden </a> </button> </span>
+        <img src="img/googlelogo.png" alt="Google">
 
-        </div>
+        <p id="oesterreich"> Österreich </p>
 
-        <div id="content">
-
-            <div id="google_font">
-
-                <img src="img/googlelogo.png" alt="Google">
-
-            </div>
-
-            <p id="oesterreich"> Österreich </p>
+        <form>
 
             <div id="searchbar">
 
-                <input type="text" id="text">
+                <input type="text" id="searchbar-text">
+                <a href="#"><img src="img/microphone.png" id="microphone" alt="Microphone" height="25" width="25"> </a>
 
             </div>
 
-            <a href="#"><img id="microphone" src="img/microphone.png" alt="Microphone" height="25" width="25"> </a>
+            <div id="google-button-wrapper">
 
-            <button class="below-searchbar"> Google-Suche </button>
+                <input type="button" value="Google-Suche" class="google-button">
 
-            <button class="below-searchbar"> Auf gut Glück! </button>
-
-        </div>
-
-        <div id="footer">
-
-            <div id="footer-left">
-
-                <span class="footer-element-left"> <a href="#"> Werbeprogramme </a> </span>
-                <span class="footer-element-left"> <a href="#"> Unternehmen </a> </span>
-                <span class="footer-element-left"> <a href="#"> Über Google </a> </span>
+                <input type="button" value="Auf gut Glück!" class="google-button">
 
             </div>
 
-            <div id="footer-right">
+        </form>
 
-                <span class="footer-element-right"> <a href="#"> Datenschutzerklärung </a> </div>
-                <span class="footer-element-right"> <a href="#"> Nutzungsbedingungen </a> </span>
-                <span class="footer-element-right"> <a href="#"> Einstellungen </a> </span>
+    </div>
 
-            </div>
+    <div id="footer" class="responsive">
 
-        </div>
+        <ul class="footer-left">
+
+            <li> <a href="https://www.google.at/intl/de/ads/?fg=1"> Werbeprogramme </a> </li>
+            <li> <a href="https://www.google.at/services/?fg=1"> Unternehmen </a> </li>
+            <li> <a href="https://www.google.at/intl/de/about/"> Über Google </a> </li>
+        </ul>
+
+        <ul class="footer-right ">
+
+            <li> <a href="https://www.google.at/intl/de/policies/privacy/?fg=1 "> Datenschutzerklärung </a> </li>
+            <li> <a href="https://www.google.at/intl/de/policies/terms/regional.html "> Nutzungsbedingungen </a> </li>
+            <li> <a href="https://www.google.at/preferences?hl=de-AT&fg=1 "> Einstellungen </a> </li>
+        </ul>
 
     </div>
 

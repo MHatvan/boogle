@@ -1,14 +1,14 @@
-.green {
-    color: green;
+@media(max-width: 768px) {
+    .responsive {
+        display: block;
+    }
 }
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 14px;
-}
-
-#wrapper {
-    width: 100%;
+    font-size: 13px;
+    color: black;
+    overflow: hidden;
 }
 
 #header {
@@ -18,23 +18,28 @@ body {
     padding-right: 30px;
 }
 
-.header-element {
+ul li {
     display: inline-block;
     margin: 5px;
 }
 
-#sign-in {
+#nav-sign-in {
     color: white;
     background-color: #3689ea;
-    padding: 5px 10px 5px 10px;
+    padding: 7px 10px 7px 10px;
+    border: 0;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
-#sign-in-color {
-    color: white;
-    text-decoration: none;
+#content {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 140px;
 }
 
-a:link {
+a:link,
+a:visited {
     color: #696969;
     text-decoration: none;
 }
@@ -44,73 +49,58 @@ a:hover {
     text-decoration: underline;
 }
 
-#content {
-    text-align: center;
-}
-
 #google_font {
-    /*
-    margin-top: 7%;
-    */
-    margin-top: 7%;
     position: relative;
 }
 
 #oesterreich {
-    /*
-    position: absolute;
-    */
     position: relative;
     color: #3689ea;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 #searchbar {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.below-searchbar {
-    background-color: #efefef;
-    color: #656565;
-    padding: 7px 15px 7px 15px;
-    margin-left: 5px;
-}
-
-#footer-left {
-    position: absolute;
-    bottom: 0;
-    font-size: 12px;
-}
-
-#footer-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 12px;
-}
-
-.footer-element-left {
-    display: inline-block;
-    margin-left: 30px;
-    margin-bottom: 15px;
-    color: #696969;
-}
-
-.footer-element-right {
-    display: inline-block;
-    margin-right: 30px;
-    margin-bottom: 15px;
-    color: #696969;
+    position: relative;
+    margin-bottom: 40px;
 }
 
 #microphone {
-    position: absolute;
-    top: 39.5%;
-    left: 63.5%;
+    position: relative;
+    right: 32px;
+    top: 9px;
 }
 
-#text {
-    width: 32%;
-    height: 35px;
+.google-button {
+    position: relative;
+    background-color: #efefef;
+    color: #656565;
+    padding: 10px 15px 10px 15px;
+    margin-left: 5px;
+    font-weight: bold;
+    border: 0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f4f4f4;
+    border-top: 1px solid #e0e0e0;
+    font-size: 12px;
+    width: 100%;
+}
+
+.footer-left {
+    float: left;
+    padding: 10px 0px 10px 30px;
+}
+
+.footer-right {
+    float: right;
+    padding: 10px 30px 10px 30px;
+}
+
+#searchbar-text {
+    width: 30%;
+    line-height: 35px;
 }
